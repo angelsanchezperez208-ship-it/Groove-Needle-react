@@ -1,0 +1,243 @@
+[
+  {
+    "id": 1,
+    "album": "The Dark Side of the Moon",
+    "artista": "Pink Floyd",
+    "anio": 1973,
+    "genero": "Progressive Rock",
+    "precio": "$850 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/3/3b/Dark_Side_of_the_Moon.png",
+    "descripcion": "The Dark Side of the Moon de Pink Floyd es una obra maestra del rock progresivo y conceptual que retrata la neurosis de la vida moderna. Explorando temas como el tiempo, la codicia, la locura y la muerte."
+  },
+  {
+    "id": 2,
+    "album": "Abbey Road",
+    "artista": "The Beatles",
+    "anio": 1969,
+    "genero": "Rock",
+    "precio": "$920 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/a/a4/The_Beatles_Abbey_Road_album_cover.jpg",
+    "descripcion": "Abbey Road es la obra maestra final de The Beatles, destacada por su producción pulida, el uso innovador del sintetizador Moog y un icónico popurrí en la cara B."
+  },
+  {
+    "id": 3,
+    "album": "Thriller",
+    "artista": "Michael Jackson",
+    "anio": 1982,
+    "genero": "Pop",
+    "precio": "$680 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/5/55/Michael_Jackson_-_Thriller.png",
+    "descripcion": "Thriller de Michael Jackson es el álbum más vendido de la historia, una obra maestra que definió el pop moderno con su mezcla de funk, rock, R&B y una producción impecable de Quincy Jones."
+  },
+  {
+    "id": 4,
+    "album": "Rumours",
+    "artista": "Fleetwood Mac",
+    "anio": 1977,
+    "genero": "Soft Rock",
+    "precio": "$750 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/f/fb/FMacRumours.PNG",
+    "descripcion": "Rumours de Fleetwood Mac es una obra maestra del pop-rock, forjada en medio de agrias rupturas amorosas y tensiones internas que se canalizaron en composiciones perfectas."
+  },
+  {
+    "id": 5,
+    "album": "Back to Black",
+    "artista": "Amy Winehouse",
+    "anio": 2006,
+    "genero": "Soul / Jazz",
+    "precio": "$700 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/6/67/Amy_Winehouse_-_Back_to_Black_%28album%29.png",
+    "descripcion": "Back to Black de Amy Winehouse es una obra maestra del soul moderno y el último álbum de estudio de la artista británica. Con una producción retro (inspirada en los años 60),"
+  },
+  {
+    "id": 6,
+    "album": "Random Access Memories",
+    "artista": "Daft Punk",
+    "anio": 2013,
+    "genero": "Electronic",
+    "precio": "$1,100 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/2/26/Daft_Punk_-_Random_Access_Memories.png",
+    "descripcion": "Random Access Memories de Daft Punk es un album de pop electrónico que rinde homenaje a la música disco de los 70/80, alejándose de la electrónica digital para enfocarse en instrumentación en vivo y producción meticulosa."
+  },
+  {
+    "id": 7,
+    "album": "Bad",
+    "artista": "Michael Jackson",
+    "anio": 1987,
+    "genero": "Pop / R&B",
+    "precio": "$720 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/5/51/Michael_Jackson_-_Bad.png",
+    "descripcion": "Bad de Michael Jackson es un pilar del pop, destacado por su sonido innovador, urbano y bailable, producido junto a Quincy Jones."
+  },
+  {
+    "id": 8,
+    "album": "Led Zeppelin IV",
+    "artista": "Led Zeppelin",
+    "anio": 1971,
+    "genero": "Hard Rock",
+    "precio": "$890 MXN",
+    "imagen": "https://fastly-s3.allmusic.com/release/mr0001051590/front/400/wVfdCEHSYG1BCWdc9VOQ4SpQg_7iAU1wjqLgK_xGXts=.jpg",
+    "descripcion": "Contiene el legendario Stairway to Heaven."
+  },
+  {
+    "id": 9,
+    "album": "Purple Rain",
+    "artista": "Prince",
+    "anio": 1984,
+    "genero": "Pop Rock / Funk",
+    "precio": "$780 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/9/9c/Princepurplerain.jpg",
+    "descripcion": "La banda sonora que definió la carrera de Prince."
+  },
+  {
+    "id": 10,
+    "album": "Hotel California",
+    "artista": "Eagles",
+    "anio": 1976,
+    "genero": "Classic Rock",
+    "precio": "$810 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/4/49/Hotelcalifornia.jpg",
+    "descripcion": "Uno de los álbumes más icónicos del rock estadounidense."
+  },
+  {
+    "id": 11,
+    "album": "Nevermind",
+    "artista": "Nirvana",
+    "anio": 1991,
+    "genero": "Grunge",
+    "precio": "$950 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/b/b7/NirvanaNevermindalbumcover.jpg",
+    "descripcion": "El disco que cambió la música de los 90 para siempre."
+  },
+  {
+    "id": 12,
+    "album": "The Rise and Fall of Ziggy Stardust",
+    "artista": "David Bowie",
+    "anio": 1972,
+    "genero": "Glam Rock",
+    "precio": "$880 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/0/01/ZiggyStardust.jpg",
+    "descripcion": "Bowie personificado como el alienígena Ziggy Stardust."
+  },
+  {
+    "id": 13,
+    "album": "OK Computer",
+    "artista": "Radiohead",
+    "anio": 1997,
+    "genero": "Alternative Rock",
+    "precio": "$950 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/b/ba/Radioheadokcomputer.png",
+    "descripcion": "Una obra maestra sobre la alienación tecnológica y la paranoia moderna. Su sonido denso y atmosférico redefinió el rock alternativo a finales de los 90."
+  },
+  {
+    "id": 14,
+    "album": "A Night at the Opera",
+    "artista": "Queen",
+    "anio": 1975,
+    "genero": "Rock",
+    "precio": "$820 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/4/4d/Queen_A_Night_At_The_Opera.png",
+    "descripcion": "Un álbum colosal que mezcla heavy metal, baladas de piano, music hall y, por supuesto, la inigualable Bohemian Rhapsody."
+  },
+  {
+    "id": 15,
+    "album": "Born to Run",
+    "artista": "Bruce Springsteen",
+    "anio": 1975,
+    "genero": "Heartland Rock",
+    "precio": "$760 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/7/7a/Born_to_Run_%28Front_Cover%29.jpg",
+    "descripcion": "El álbum definitivo del rock americano, lleno de energía inagotable, sueños de escape y una pared de sonido espectacular."
+  },
+  {
+    "id": 16,
+    "album": "The Wall",
+    "artista": "Pink Floyd",
+    "anio": 1979,
+    "genero": "Progressive Rock",
+    "precio": "$1,200 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/1/13/PinkFloydWallCoverOriginalNoText.jpg",
+    "descripcion": "Una ópera rock monumental que narra la construcción y caída de un muro de aislamiento psicológico, creada a partir de los traumas de Roger Waters."
+  },
+  {
+    "id": 17,
+    "album": "Appetite for Destruction",
+    "artista": "Guns N' Roses",
+    "anio": 1987,
+    "genero": "Hard Rock",
+    "precio": "$890 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/6/60/GunsnRosesAppetiteforDestructionalbumcover.jpg",
+    "descripcion": "Uno de los debuts más crudos, peligrosos y exitosos de la historia del rock, inyectando nueva vida y rebeldía a la escena de Los Ángeles."
+  },
+  {
+    "id": 18,
+    "album": "Sgt. Pepper's Lonely Hearts Club Band",
+    "artista": "The Beatles",
+    "anio": 1967,
+    "genero": "Psychedelic Rock",
+    "precio": "$980 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/5/57/Sgt._Pepper%27s_Lonely_Hearts_Club_Band_album_art.jpg",
+    "descripcion": "Un álbum conceptual que alteró la cultura pop. Con innovaciones de estudio revolucionarias, elevó la música rock a la categoría de arte."
+  },
+  {
+    "id": 19,
+    "album": "Sticky Fingers",
+    "artista": "The Rolling Stones",
+    "anio": 1971,
+    "genero": "Rock",
+    "precio": "$850 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/5/57/The_Rolling_Stones_-_Sticky_Fingers.png",
+    "descripcion": "Rock and roll directo, elegante y peligroso. Incluye himnos inmortales y presenta una icónica portada ideada por Andy Warhol."
+  },
+  {
+    "id": 20,
+    "album": "Back in Black",
+    "artista": "AC/DC",
+    "anio": 1980,
+    "genero": "Hard Rock",
+    "precio": "$790 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/ACDC_Back_in_Black.png/1280px-ACDC_Back_in_Black.png",
+    "descripcion": "Un tributo electrizante al fallecido Bon Scott. Riffs monstruosos y una producción perfecta lo convierten en el disco definitivo del hard rock."
+  },
+  {
+    "id": 21,
+    "album": "Hounds of Love",
+    "artista": "Kate Bush",
+    "anio": 1985,
+    "genero": "Art Pop",
+    "precio": "$910 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/3/3f/Katebushhoundsoflove.png",
+    "descripcion": "Una obra maestra que divide el pop sintético impecable de su primera mitad con una suite conceptual abstracta y vanguardista en la segunda."
+  },
+  {
+    "id": 22,
+    "album": "London Calling",
+    "artista": "The Clash",
+    "anio": 1979,
+    "genero": "Punk Rock",
+    "precio": "$860 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/0/00/TheClashLondonCallingalbumcover.jpg",
+    "descripcion": "El álbum que expandió los horizontes del punk, fusionando su furia con reggae, rockabilly, ska y R&B en un paisaje sonoro inagotable."
+  },
+  {
+    "id": 23,
+    "album": "Pet Sounds",
+    "artista": "The Beach Boys",
+    "anio": 1966,
+    "genero": "Baroque Pop",
+    "precio": "$830 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/b/bb/PetSoundsCover.jpg",
+    "descripcion": "Una sinfonía de bolsillo orquestada por Brian Wilson. Arreglos vocales e instrumentales de una belleza y melancolía incomparables."
+  },
+  {
+    "id": 24,
+    "album": "Legend",
+    "artista": "Bob Marley and The Wailers",
+    "anio": 1984,
+    "genero": "Reggae",
+    "precio": "$700 MXN",
+    "imagen": "https://upload.wikimedia.org/wikipedia/en/c/c2/BobMarley-Legend.jpg",
+    "descripcion": "El recopilatorio definitivo que llevó el reggae al mundo entero, reuniendo los mayores himnos de amor y resistencia de Bob Marley."
+  }
+
+]

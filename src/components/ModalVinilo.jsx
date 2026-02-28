@@ -1,5 +1,5 @@
 const ModalVinilo = ({ vinilo, cerrarModal }) => {
-  if (!vinilo) return null; // Medida de seguridad por si no hay vinilo seleccionado
+  if (!vinilo) return null; 
 
   return (
     <div className="modal show fade d-block" tabIndex="-1" style={{ backgroundColor: 'rgba(0,0,0,0.8)' }}>
@@ -7,7 +7,6 @@ const ModalVinilo = ({ vinilo, cerrarModal }) => {
         <div className="modal-content bg-dark text-white border-magenta shadow-lg">
           <div className="modal-header border-bottom border-secondary">
             <h5 className="modal-title retro-title text-magenta">Detalles del Álbum</h5>
-            {/* Usamos la función cerrarModal al hacer clic */}
             <button type="button" className="btn-close btn-close-white" onClick={cerrarModal}></button>
           </div>
           <div className="modal-body">

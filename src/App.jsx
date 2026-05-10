@@ -1,53 +1,35 @@
-import { useState, useEffect } from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import { ToastContainer } from 'react-toastify'
+import 'react-toastify/dist/ReactToastify.css'
+import { AuthProvider } from './context/AuthContext'
 import Header from './components/Header'
-import VinilosGrid from './components/VinilosGrid'
-import ModalVinilo from './components/ModalVinilo'
-import FormularioContacto from './components/FormularioContacto'
+import Home from './pages/Home'
+import Login from './pages/Login'
+import Registro from './pages/Registro'
+import Carrito from './pages/Carrito'
+import AdminPanel from './pages/AdminPanel'
 import './index.css'
 
-
 function App() {
-  const [vinilos, setVinilos] = useState([])
-  const [isLoading, setIsLoading] = useState(true)
-  const [busqueda, setBusqueda] = useState('')
-  const [viniloSeleccionado, setViniloSeleccionado] = useState(null)
-
-  useEffect(() => {
-    setTimeout(() => {
-      fetch('/vinilo.json')
-        .then(response => response.json())
-        .then(data => {
-          setVinilos(data)
-          setIsLoading(false)
-        })
-        .catch(error => console.error("Error:", error))
-    }, 500)
-  }, [])
-
-  const vinilosFiltrados = vinilos.filter(v =>
-    v.album.toLowerCase().includes(busqueda.toLowerCase()) ||
-    v.artista.toLowerCase().includes(busqueda.toLowerCase())
-  )
-
   return (
-    <>
-      <Header busqueda={busqueda} setBusqueda={setBusqueda} />
-      
-      <VinilosGrid 
-        items={vinilosFiltrados} 
-        isLoading={isLoading} 
-        setViniloSeleccionado={setViniloSeleccionado} 
-      />
-
-      <FormularioContacto />
-
-      {viniloSeleccionado && (
-        <ModalVinilo 
-          vinilo={viniloSeleccionado} 
-          cerrarModal={() => setViniloSeleccionado(null)} 
+    <BrowserRouter>
+      <AuthProvider>
+        <Header />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/registro" element={<Registro />} />
+          <Route path="/carrito" element={<Carrito />} />
+          <Route path="/admin" element={<AdminPanel />} />
+        </Routes>
+        <ToastContainer
+          position="bottom-right"
+          autoClose={3000}
+          theme="dark"
+          toastStyle={{ backgroundColor: '#111', border: '1px solid var(--neon-cyan)' }}
         />
-      )}
-    </>
+      </AuthProvider>
+    </BrowserRouter>
   )
 }
 

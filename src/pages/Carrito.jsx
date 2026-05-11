@@ -70,8 +70,8 @@ const Carrito = () => {
     setProcesando(true)
     try {
       const data = await confirmarCompra(usuario.token)
-      if (data.message) {
-        toast.success('¡Compra confirmada! Gracias por tu pedido.')
+      if (data.ok) {
+        toast.success('¡Compra realizada correctamente! Gracias por tu pedido.')
         fetchCarrito()
       } else {
         toast.error(data.message || 'Error al procesar la compra')

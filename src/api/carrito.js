@@ -50,5 +50,10 @@ export const confirmarCompra = async (token) => {
     method: 'POST',
     headers: authHeader(token),
   })
-  return res.json()
+  const contentType = res.headers.get('content-type')
+  let data = {}
+  if (contentType && contentType.includes('application/json')) {
+    data = await res.json()
+  }
+  return { ok: res.ok, ...data }
 }
